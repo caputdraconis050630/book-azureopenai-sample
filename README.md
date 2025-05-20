@@ -18,7 +18,7 @@ Azure OpenAI와 Azure AI Foundry를 비롯해 애저의 다양한 AI 서비스�
 ## 디렉토리 구성
 
 - [aoai-rag](./aoai-rag/): Azure OpenAI Service와 Azure AI Search를 활용해 사내 문서 검색(RAG) 시스템을 구현하는 예제 코드입니다. 5장에서 주로 사용하며 6장에서 ChatGPT 플러그인을 구현할 때에도 사용합니다. 또, 각각의 컴포넌트들을 더 깊게 이해할 수 있도록 단계적으로 작성한 노트북을 제공합니다.([aoai-rag/notebooks](aoai-rag/notebooks))
-- [aoai-flask-see](./aoai-flask-sse/): Azure OpenAI Service의 스트리밍 처리를 Flask와 SSE(Server-Sent Events)를 활용해서 구현하는 예제 코드입니다. 8장에서 사용합니다.
+- [aoai-flask-sse](./aoai-flask-sse/): Azure OpenAI Service의 스트리밍 처리를 Flask와 SSE(Server-Sent Events)를 활용해서 구현하는 예제 코드입니다. 8장에서 사용합니다.
 - [aoai-apim](./aoai-apim/): Azure API Management를 활용해서 Azure OpenAI Service를 사내 공통 시스템으로 사용하는 예제 코드입니다. 9장에서 사용합니다.
 
 ## 환경설정
